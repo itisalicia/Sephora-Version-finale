@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav {
+    position: relative;
+}
+
+.fidélité {
+    position: absolute;
+    background-color: #f3ced7;
+    top: 0;
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#flag {
+    height: 20px;
+    width: 25px;
+    padding-left: 25px;
+    margin-top: 60px;
+}
+
+#logo {
+    width: 180px;
+    height: 80px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.sephora {
+    margin-left: 60px;
+    position: absolute;
+    top: 10px;
+}
+
+input {
+    position: absolute;
+    width: 620px;
+    height: 55px;
+    font-size: 15px;
+    border-color: grey;
+    border-radius: 30px;
+    margin-left: 280px;
+    padding-top: 5px;
+    padding-left: 10px;
+    top: 40px;
+}
+
+.position {
+    position: absolute;
+    top: 50px;
+    left: 970px;
+}
+
+.compte {
+    position: absolute;
+    top: 50px;
+    left: 1160px;
+}
+
+.fav {
+    position: absolute;
+    top: 54px;
+    left: 1310px;
+}
+
+.panier {
+    position: absolute;
+    top: 54px;
+    left: 1375px;
+}
+
+#position,
+#compte,
+#fav,
+#panier {
+    height: 28px;
+}
+
+.nav_part3 {
+    position: absolute;
+    top: 130px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 30px;
+}
+
+#pink {
+    color: #db3088;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    border-radius: 25px;
+}
+
+#light {
+    font-weight: lighter;
+}
+
+#red {
+    color: #ff3f32;
+}
+
+#pink {
+    color: #db3088;
+}
+  
+.column {
+    float: left;
+    width: 20%;
+}
+
+
+.column1 {
+    float: left;
+    width: min-content;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 1000px; 
+    height: 1250px;
+    z-index: 1;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.dropdown-content a {
+    font-weight: bold;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+}
+
+.dropdown a:hover {
+    background-color: white;
+    text-decoration: underline;
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}

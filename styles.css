@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    min-height: 280vh;
+  }
+
+.container {
+    position: relative;
+}
+
+.img1 {
+    /* position: relative; */
+    position: absolute;
+    width: 100%;
+    height: 490px;
+    top: 90px; 
+}
+
+.mothersday {
+    position: absolute;
+    border: 2px solid white;
+    left: 90px;
+    top: 220px;
+    padding: 38px;
+    padding-top: 15px;
+    border-radius: 20px;
+    background-color: white;
+    width: 300px;
+}
+
+.title {
+    font-size: 22px;
+}
+
+.reduction {
+    border: 2px solid rgb(226, 225, 225, 0.922);
+    font-weight: bold;
+    padding: 13px;
+    margin-right: 15px;
+    width: 45px;
+    border-radius: 10px;
+    background-color: rgba(226, 225, 225, 0.922);
+    float: left;
+    margin-top: 15px;
+}
+
+.reduction2 {
+    margin-top: 20px;
+    padding-left: 15px;
+    font-size: 17px;
+}
+
+.button {
+    position: absolute;
+    top: 395px;
+    left: 65px;
+}
+
+
+button {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    font-size: 18px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+}
+
+
+.card2 {
+   position: absolute;
+   top: 680px;
+   padding-left: 100px;
+   padding-bottom: 50px;
+}
+
+.img3 {
+    height: 250px;
+    width: 200px;
+    bottom: 45px;
+    float: left;
+    margin: 10px 20px 10px 10px;
+}
+
+.reduction3 {
+    border: 2px solid rgba(196, 195, 195, 0.922);
+    left: 100px;
+    top: 380px;
+    padding: 50px;
+    padding-top: 15px;
+    border-radius: 20px;
+    background-color: white;
+    width: 400px;
+    height: 205px;
+}
+
+.btn_decouvrir,
+.btn_jouer {
+    background-color: rgba(226, 225, 225, 0.922);
+    margin-top: 30px;
+    
+}
+
+.title2 {
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+
+
+.card3 {
+    position: absolute;
+    top: 680px;
+    right: 100px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    height: 300px;
+}
+
+.img4 {
+    height: 250px;
+    width: 200px;
+    bottom: 45px;
+    float: left;
+    margin: 10px 20px 10px 10px;
+}
+
+
+.title_part3 {
+    position: absolute;
+    top: 1000px;
+    padding-left: 30px;
+}
+
+
+.card4 {
+    position: absolute;
+    top: 1080px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+ }
+
+
+ .card5 {
+    position: absolute;
+    top: 1080px;
+    right: 100px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.title_part4 {
+    position: absolute;
+    top: 1400px;
+    padding-left: 30px;
+}
+
+
+.card6 {
+    position: absolute;
+    top: 1500px;
+    padding-left: 100px;
+    padding-bottom: 50px;
+ }
+
+
+ .img6 {
+    height: 180px;
+    width: 240px;
+    bottom: 45px;
+    float: left;
+    margin: 10px 20px 10px 10px;
+}
+
+.reduction6 {
+    border: 2px solid rgba(196, 195, 195, 0.922);
+    padding: 50px;
+    padding-top: 10px;
+    border-radius: 20px;
+    background-color: white;
+    width: 500px;
+    height: 140px;
+}
+
+.btn_decouvrir6 {
+    background-color: rgba(226, 225, 225, 0.922);
+    margin-top: 15px;
+    
+}
+
+.card7 {
+    position: absolute;
+    top: 1500px;
+    right: 100px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+
+.img7 {
+    height: 175px;
+    width: 230px;
+    bottom: 45px;
+    float: left;
+    margin: 10px 20px 10px 10px;
+}
+
+footer {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+ footer a {
+    color: white;
+ }
+
+ button:hover {
+    cursor: pointer;
+ }
+
